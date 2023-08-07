@@ -20,14 +20,6 @@ public class CandidateDetails {
     public CandidateDetails() {
     }
 
-    public CandidateDetails(String consultantName, String phoneNumber, String email, String skills, String location) {
-        this.consultantName = consultantName;
-        this.phoneNumber = phoneNumber;
-        this.email = email;
-        this.skills = skills;
-        this.location = location;
-    }
-
     public void add(CandidateDetails candidateDetails){
         candidates.add(candidateDetails);
     }
